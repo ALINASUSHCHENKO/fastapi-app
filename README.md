@@ -19,8 +19,9 @@ cd fastapi-app
 ```
 
 ### 2. Создание и активация виртуального окружения
-``` Windows (PowerShell):
+Windows (PowerShell):
 
+```bash
 python -m venv .venv
 .venv\Scripts\Activate.ps1
 ```
@@ -28,19 +29,16 @@ python -m venv .venv
 Linux / macOS:
 
 ```bash
-
 python3 -m venv .venv
 source .venv/bin/activate
 ```
 
 ### 3. Установка зависимостей
 ```bash
-
 pip install -r requirements.txt
 ```
 ### 4. Запуск сервера
 ```bash
-
 uvicorn main:app --reload
 ```
 ### Сервер будет доступен по адресу: http://127.0.0.1:8000
