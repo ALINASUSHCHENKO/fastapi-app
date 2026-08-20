@@ -25,9 +25,9 @@ python -m venv .venv
 .venv\Scripts\Activate.ps1
 ```
 
-```Linux / macOS:
+Linux / macOS:
 
-bash
+```bash
 
 python3 -m venv .venv
 source .venv/bin/activate
